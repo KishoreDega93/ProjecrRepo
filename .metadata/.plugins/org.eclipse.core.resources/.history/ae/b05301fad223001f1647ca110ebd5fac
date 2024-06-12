@@ -1,0 +1,10 @@
+spring.application.name=25-Spring_Data_JAP-app1
+spring.datasource.url=jdbc:mysql://localhost:3306/book
+spring.datasource.username=root
+spring.datasource.password=8919669912
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+#to print queries on console
+spring.jpa.show-sql=true
+#to create table dynamically
+spring.jpq.hibernate.ddl-auto=update

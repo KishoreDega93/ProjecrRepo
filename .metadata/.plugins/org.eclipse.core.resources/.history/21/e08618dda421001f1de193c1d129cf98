@@ -1,0 +1,24 @@
+package com.example.first.Service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.first.ReportDAo;
+
+
+@Service
+public class ReportDaoService {
+
+	public ReportDAo rd ;
+	
+	@Autowired
+	void setReportDAo (ReportDAo rd) {
+		System.out.println("Setter methode called");
+		this.rd=rd;
+	}
+	
+	public void database() {
+		String str = rd.display();
+		System.out.println(str);
+	}
+}

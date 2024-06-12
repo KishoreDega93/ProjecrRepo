@@ -1,0 +1,5 @@
+package com.example.first.Entity;
+
+public class Player {
+
+}
